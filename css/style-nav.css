@@ -1,0 +1,11 @@
+:root {
+    --cor-azul-titulo: #002F52;
+    --cor-branca: #FFFFFF;
+    --cor-de-fundo: #EBECEE;
+    --cor-laranja: #EB9B00;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Poppins', sans-serif;
+}
