@@ -28,6 +28,10 @@ body {
     margin-right: 1.875rem;
 }
 
+.nav__titulo {
+    display: none;
+}
+
 .nav__2 {
     display: flex;
     margin-right: 1.896rem;
