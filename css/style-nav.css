@@ -9,3 +9,30 @@ body {
     background-color: var(--cor-de-fundo);
     font-family: 'Poppins', sans-serif;
 }
+
+.nav-container {
+    align-items: center;
+    background-color: var(--cor-branca);
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav__1 {
+    display: flex;
+    margin-left: 1.875rem;
+}
+
+.nav__menu {
+    margin-right: 1.875rem;
+}
+
+.nav__2 {
+    display: flex;
+    margin-right: 1.896rem;
+}
+
+.nav__compras {
+    margin: 0 1.896rem;
+}
