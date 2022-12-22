@@ -12,22 +12,33 @@
     <link rel="stylesheet" href="./css/style-nav.css">
 </head>
 <body>
-    <header>
-        <nav class="nav-container">
-            <div class="nav__1">
-                <img src="./img/Menu.svg" alt="Ícone de menu" class="nav__menu">
-                <img src="./img/Logo.svg" alt="Logo do AluraBooks" class="nav__logo">
-                <h1 class="nav__titulo">AluraBooks</h1>
-            </div>
+    <header class="header-container">
+        <div class="header__1">
+            <img src="./img/menuBranco.svg" alt="Ícone de menu" class="header__menu--icone">
+            <img src="./img/Logo.svg" alt="Logo do AluraBooks" class="header__logo">
+            <h1 class="header__titulo">AluraBooks</h1>
+        </div>
 
-            <div class="nav__2">
-                <a href="#" class="nav__favoritos"><img src="./img/Favoritos.svg" alt="Ícone de favoritos"></a>
-                <a href="#" class="nav__compras"><img src="./img/Compras.svg" alt="Ícone de bolsa de compras"></a>
-                <a href="#" class="nav__usuario"><img src="./img/Usuario.svg" alt="Ícone do perfil do usuário"></a>
-            </div>
-        </nav>
+        <div class="header__2">
+            <a href="#" class="header__favoritos"><img src="./img/Favoritos.svg" alt="Ícone de favoritos"></a>
+            <a href="#" class="header__compras"><img src="./img/Compras.svg" alt="Ícone de bolsa de compras"></a>
+            <a href="#" class="header__usuario"><img src="./img/Usuario.svg" alt="Ícone do perfil do usuário"></a>
+        </div>
     </header>
+
+    <nav class="menu-lateral">
+        <p class="menu__titulo">Categorias</p>
+        <ul class="menu__itens">
+           <li><a href="#" class="menu__item">Programação</a></li>
+           <li><a href="#" class="menu__item">Front-End</a></li>
+           <li><a href="#" class="menu__item">Infraestrutura</a></li>
+           <li><a href="#" class="menu__item">Business</a></li>
+           <li><a href="#" class="menu__item">Design & Ux</a></li>
+        </ul>
+    </nav>
+
     <main></main>
     <footer></footer>
+    <script src="main.js"></script>
 </body>
 </html>
