@@ -3,11 +3,13 @@
     --cor-branca: #FFFFFF;
     --cor-de-fundo: #EBECEE;
     --cor-laranja: #EB9B00;
+    --gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte: 'Poppins', sans-serif;
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--fonte)
 }
 
 .header-container {
