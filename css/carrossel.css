@@ -61,27 +61,26 @@
     text-align: left;
 }
 
+.card-info__img {
+    margin: 0 0 2.188rem 0;
+}
+
+.card-info-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card-info__icones {
     align-items: center;
     display: flex;
 }
 
 .card-info__favoritos {
-    margin-left: 0.7rem;
+    margin-left: 0.667rem;
 }
 
 .card-info__compras {
-    margin-left: 1.1rem;
-}
-
-.card-info-2 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-}
-
-.card-info-2__img {
-    margin: 0 0 2.188rem 0;
+    margin-left: 1.75rem;
 }
 
 .card-info-2__botao {
@@ -92,4 +91,8 @@
     padding: 12px 35px;
     text-align: center;
     text-decoration: none;
+}
+
+.img__estrelas {
+    margin-bottom: 0.563rem; /*9px*/
 }
