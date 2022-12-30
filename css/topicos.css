@@ -1,7 +1,7 @@
 .topicos {
     background: var(--gradiente);
     height: 295px;
-    padding: 1.5rem 0.987rem 1.5rem 0.987rem;
+    padding: 1.5rem 0;
     text-align: center;
 }
 
@@ -13,8 +13,14 @@
     text-transform: uppercase;
 }
 
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .topicos__item {
-    margin: 1rem 1.5rem;
+    margin: 2em 0.5em;
 }
 
 .topicos__link {
@@ -22,8 +28,6 @@
     color: var(--cor-branca);
     font-size: 14px;
     font-weight: 700;
-    gap: 10px;
-    line-height: 21px;
-    padding: 16px 24px;
+    padding: 1em;
     text-decoration: none;
 }
