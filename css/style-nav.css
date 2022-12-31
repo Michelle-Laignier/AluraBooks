@@ -3,6 +3,8 @@
     --cor-branca: #FFFFFF;
     --cor-de-fundo: #EBECEE;
     --cor-laranja: #EB9B00;
+    --cor-footer: #F9F9F9;
+    --borda-footer: #858585;
     --gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte: 'Poppins', sans-serif;
 }
@@ -94,7 +96,6 @@ body {
 .menu__item {
     color: var(--cor-azul-titulo);
     font-size: 16px;
-    font-weight: 400;
     margin-left: 1.5rem;
     line-height: 24px;
     text-decoration: none;

@@ -1,0 +1,11 @@
+.footer {
+    background-color: var(--cor-footer);
+    border-top: 1px solid var(--borda-footer);
+    height: 65px;
+}
+
+.footer__titulo {
+    color: black;
+    line-height: 24px;
+    margin: 17px 0 0 24px;
+}
