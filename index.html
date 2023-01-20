@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style-nav.css">
     <link rel="stylesheet" href="./css/style-banner.css">
@@ -16,13 +19,32 @@
     <link rel="stylesheet" href="./css/topicos.css">
     <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/tablet.css">
 </head>
 <body>
     <header class="header-container">
         <div class="header__1">
             <img src="./img/menuBranco.svg" alt="Ícone de menu" class="header__menu--icone">
             <img src="./img/Logo.svg" alt="Logo do AluraBooks" class="header__logo">
-            <h1 class="header__titulo">AluraBooks</h1>
+            <div class="header-alt">
+                <h1 class="header-alt__titulo"><b class="header-alt__titulo--negrito">Alura</b>Books</h1>
+            </div>
+            <ul class="header-alt__itens">
+                <input type="checkbox" id="header-alt__menu" class="header-alt__botao">
+                <label for="header-alt__menu">
+                    <li class="header-alt__item">Categorias</li>
+                </label>
+                <ul class="menu__itens">
+                    <li><a href="#" class="menu__item">Programação</a></li>
+                    <li><a href="#" class="menu__item">Front-End</a></li>
+                    <li><a href="#" class="menu__item">Infraestrutura</a></li>
+                    <li><a href="#" class="menu__item">Business</a></li>
+                    <li><a href="#" class="menu__item">Design & Ux</a></li>
+                 </ul>
+
+                <li class="header-alt__item"><a href="#" class="header-alt__item--link">Favoritos</a></li>
+                <li class="header-alt__item"><a href="#" class="header-alt__item--link">Minha Estante</a></li>
+            </ul>
         </div>
 
         <div class="header__2">
