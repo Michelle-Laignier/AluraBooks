@@ -55,6 +55,7 @@
         height: auto;
         line-height: 64px;
         position: absolute;
+        text-transform: uppercase;
         top: 61px;
         width: 18%;
     }
@@ -69,5 +70,23 @@
 
     .header__compras {
         margin: 0 67px 0 0;
+    }
+
+    .banner {
+        padding: 5.25rem 1.5rem;
+    }
+
+    .banner__titulo {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 6em;
     }
 }
