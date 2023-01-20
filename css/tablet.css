@@ -132,4 +132,24 @@
     .topicos__link {
         font-size: 24px;
     }
+
+    .contato {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .contato__descricao {
+        margin-left: 149px;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__email {
+        height: fit-content;
+        margin-left: 45px;
+        margin-top: 44px;
+        width: 50%;
+    }
 }
