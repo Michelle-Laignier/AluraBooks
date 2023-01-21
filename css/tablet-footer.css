@@ -1,18 +1,16 @@
 @media screen and (min-width: 1024px) {
     .footer {
+        display: flex;
         height: auto;
+        justify-content: space-around;
+        padding-top: 3.5rem;
     }
 
     .footer__titulo {
         font-size: 24px;
         font-weight: 400;
         line-height: 36px;
-    }
-
-    .footer__expandido {
-        display: flex;
-        justify-content: space-evenly;
-        margin-left: 106px;
+        margin: 0;
     }
 
     .footer__expandido--titulo,
@@ -29,6 +27,7 @@
     }
 
     .footer-lista {
+        display: block;
         margin-bottom: 70px;
     }
 
@@ -40,6 +39,7 @@
 
     .footer-link {
         color: var(--texto-footer);
+        margin-left: 0.5rem;
         text-decoration: none;
     }
 }
