@@ -9,3 +9,7 @@
     line-height: 24px;
     margin: 17px 0 0 24px;
 }
+
+.footer__expandido {
+    display: none;
+}
