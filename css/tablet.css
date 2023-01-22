@@ -28,11 +28,11 @@
     .header-alt__itens{
         align-items: center;
         display: flex;
-        margin-left: 67px;
+        justify-content: space-evenly;
+        width: 43vw;
     }
 
     .header-alt__item {
-        margin-right: 42px;
         text-transform: uppercase;
     }
 
