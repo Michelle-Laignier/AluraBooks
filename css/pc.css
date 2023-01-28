@@ -1,0 +1,25 @@
+@media screen and (min-width: 1528px) {
+    .carrossel__pc {
+        display: flex;
+    }
+
+    .card {
+        margin: 7.125rem 10.87rem 7.125rem 2.875rem;
+        width: -webkit-fill-available;
+    }
+
+    .card-info__titulo-1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .card-info__titulo-2 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .card-info__texto {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
