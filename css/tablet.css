@@ -28,8 +28,8 @@
     .header-alt__itens{
         align-items: center;
         display: flex;
-        justify-content: space-evenly;
-        width: 43vw;
+        gap: 42px;
+        margin-left: 3.125rem;
     }
 
     .header-alt__item {

@@ -1,6 +1,7 @@
 :root {
     --cor-azul-titulo: #002F52;
     --cor-branca: #FFFFFF;
+    --cor-preta: #000000;
     --cor-de-fundo: #EBECEE;
     --cor-laranja: #EB9B00;
     --cor-footer: #F9F9F9;
@@ -60,6 +61,10 @@ body {
 
 .header__compras {
     margin: 0 1.896rem;
+}
+
+.header__2-texto {
+    display: none;
 }
 
 .menu-lateral {

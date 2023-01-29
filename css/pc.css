@@ -1,4 +1,35 @@
 @media screen and (min-width: 1528px) {
+    .header-alt__item:hover,
+    .header-alt__item--link:hover,
+    .header__2-texto:hover {
+        color: var(--cor-laranja);
+        cursor: pointer;
+        transition: 0.25s;
+    }
+
+    .header-alt__botao:checked ~ .menu__itens{
+        left: 390px;
+        width: 12%;
+    }
+
+    .header__compras {
+        margin: 0;
+    }
+
+    .header__usuario {
+        margin-left: 3.813rem;
+    }
+
+    .header__2-texto {
+        color: var(--cor-preta);
+        display: block;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-left: 0.5rem;
+        text-decoration: none;
+    }
+
     .carrossel__pc {
         display: flex;
     }
