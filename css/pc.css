@@ -114,4 +114,13 @@
     .contato__email:focus {
         border: 4px dotted var(--cor-laranja);
     }
+
+    .footer-lista {
+        border-left: 1px solid var(--borda-footer);
+        padding-left: 20px;
+    }
+
+    .footer-link:hover {
+        color: var(--cor-laranja);
+    }
 }
