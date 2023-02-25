@@ -80,6 +80,7 @@
     .card-info-2__botao {
         transition: 0.5s;
     }
+    
     .card-info-2__botao:hover {
         transform: scale(1.2);
     }
