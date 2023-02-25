@@ -81,7 +81,17 @@
         transition: 0.5s;
     }
     
-    .card-info-2__botao:hover {
+    .card-info-2__botao:hover,
+    .topicos__item:hover {
         transform: scale(1.2);
+    }
+
+    .topicos__lista {
+        margin: 0 16rem;
+    }
+
+    .topicos__item {
+        padding: 24px 24px;
+        transition: 0.5s;
     }
 }
