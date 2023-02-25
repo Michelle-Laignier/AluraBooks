@@ -30,6 +30,19 @@
         text-decoration: none;
     }
 
+    .menu__itens li:hover {
+        background: var(--gradiente);
+    }
+    
+    .menu__item {
+        margin: 0;
+        padding: 24px;
+    }
+
+    .menu__item:hover {
+        color: var(--cor-branca);
+    }
+
     .banner__pesquisa {
         width: 40%;
     }
