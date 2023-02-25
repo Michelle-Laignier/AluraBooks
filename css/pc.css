@@ -86,6 +86,10 @@
         transform: scale(1.2);
     }
 
+    .topicos {
+        padding: 4.5rem 0;
+    }
+
     .topicos__lista {
         margin: 0 16rem;
     }
@@ -93,5 +97,21 @@
     .topicos__item {
         padding: 24px 24px;
         transition: 0.5s;
+    }
+
+    .contato {
+        padding: 64px 23px 65px 24px;
+    }
+
+    .contato__descricao {
+        margin-left: 344px;
+    }
+
+    .contato__email {
+        width: 40%;
+    }
+
+    .contato__email:focus {
+        border: 4px dotted var(--cor-laranja);
     }
 }
